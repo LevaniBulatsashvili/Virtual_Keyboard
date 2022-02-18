@@ -1,0 +1,92 @@
+html, body, div, span, applet, object, iframe,
+ p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+body {
+    background-color: rgb(17, 5, 37);
+}
+
+p {
+    color: white;
+    margin-left: 43%;
+    margin-top: 50px;
+}
+
+#system {
+    margin-left: 47.7%;
+    margin-top: 10px;
+}
+
+button {
+    background-color: rgb(170, 170, 170);
+    font-size: large;
+    margin: 0px 2px;
+    transition: 0.3s;
+}
+
+button:active {
+    background-color: rgb(28, 86, 124);
+    border-radius: 25%;
+}
+
+#main-text {
+    background-color: white;
+    width: 620px;
+    height: 80px;
+    margin: 11% 0% 1% 33.5%;
+}
+
+#keyboard {
+    background-color: white;
+    border: 1.5px solid black;
+    display: grid;
+    gap: 5px;
+    margin: 1% 34%;
+    padding: 5px;
+    width: 600px;
+}
+
+#keyboard-top, #keyboard-top-half, #keyboard-mid, #keyboard-bot-half, #keyboard-bot {
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.special {
+    font-size: 60%;
+}
+
+#shift {
+    padding: 0 12px;
+}
+
+#small-shift {
+    padding-left: 2.5px;
+    padding-right: 2.5px;
+}
+
+#space {
+    font-size: 75%;
+    padding: 0 70px;
+    height: 26.2px;
+}
+
+.arrow {
+    font-size: 75%;
+}
